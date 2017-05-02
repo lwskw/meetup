@@ -11,6 +11,6 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
+//= require vendor/jquery.anystretch.min
 //= require turbolinks
 //= require_tree .
