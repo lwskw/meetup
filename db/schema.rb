@@ -17,5 +17,12 @@ ActiveRecord::Schema.define(version: 20170506030204) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
-
+  create_table "comments", force: true do |t|
+    t.text     "contect"
+    t.string   "username"
+    t.string   "email"
+    t.interger "issue_id"
+    t.datatime "created_at"
+    t.datetime "updated_at"
+  end
 end
